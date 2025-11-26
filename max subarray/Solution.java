@@ -34,7 +34,7 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 class Solution{
 
  public int maxSubArray(int[] nums){
-   if(nums ==0 || nums.length==0){
+   if(nums ==null || nums.length==0){
      return 0;
    }
 
